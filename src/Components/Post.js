@@ -1,9 +1,9 @@
-import { Navigate, useNavigate , Routes , Route } from 'react-router-dom';
+import { useNavigate , Routes , Route } from 'react-router-dom';
 
 import React from 'react'
 
 function Post() {
-    const status = 404
+    const status = 200
 
     const navigate = useNavigate()
     const onClick = () =>
@@ -11,10 +11,10 @@ function Post() {
         navigate('/about')
     }
 
-    // if (status === 404)
-    // {
-    //     return <Navigate to='/notfound'/>
-    // }
+    if (status === 404)
+    {
+        return <Navigate to='/notfound'/>
+    }
 
   return (
     <div>
