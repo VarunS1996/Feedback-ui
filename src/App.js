@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes /*NavLink*/, } from "react-router-dom";
 // import Card from "./Components/shared/Card";
 import Header from "./Components/Header";
 import FeedbackList from "./Components/FeedbackList";
-import FeedbackData from "./Data/FeedbackData";
+// import FeedbackData from "./Data/FeedbackData";
 import FeedbackStats from "./Components/FeedbackStats";
 import FeedbackForm from "./Components/FeedbackForm";
 import AboutPage from "./pages/AboutPage";
