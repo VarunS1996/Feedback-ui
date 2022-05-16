@@ -1,4 +1,4 @@
-import { useNavigate , Routes , Route } from 'react-router-dom';
+import { Navigate, useNavigate , Routes , Route } from 'react-router-dom';
 
 import React from 'react'
 
